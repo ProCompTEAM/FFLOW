@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>FFlow.Tests</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FFlow.Core\FFlow.Core.csproj" />
+    <ProjectReference Include="..\FFlow.Framework\FFlow.Framework.csproj" />
+  </ItemGroup>
+
+</Project>
